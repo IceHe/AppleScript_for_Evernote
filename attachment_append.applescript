@@ -2,7 +2,7 @@ on run {note_name, attachment_path}
 	
 	tell application "Evernote" to launch
 	
-	run script (POSIX file "/Users/IceHe/Documents/AppleScript/Evernote/evernote_launch.scpt")
+	run script (POSIX file "/Users/IceHe/Documents/AppleScript/Evernote/evernote_launch.applescript")
 	
 	tell application "Evernote"
 		

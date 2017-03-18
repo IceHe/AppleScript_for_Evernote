@@ -2,7 +2,7 @@ on run {note_name, new_note_name}
 	
 	if (note_name = new_note_name) then return false
 	
-	run script (POSIX file "/Users/IceHe/Documents/AppleScript/Evernote/evernote_launch.scpt")
+	run script (POSIX file "/Users/IceHe/Documents/AppleScript/Evernote/evernote_launch.applescript")
 	
 	tell application "Evernote"
 		
@@ -18,4 +18,3 @@ on run {note_name, new_note_name}
 	end tell
 	
 end run
-
